@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'veteran';
+    src: url('./../font/veteran typewriter.ttf');
+}
+
+body {
+    background-image: url("./../img/background-retouché.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+
+h1 {
+    color: #FD0715;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'veteran', sans-serif;
+}
+
+a button {
+    color: #FD0715;
+    background-color: #6496E9;
+    text-align: center;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+a button .clique {
+    background-color: #2c68c7 !important;
+}
+
+a button:hover {
+    background-color: #2c68c7;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2 {
+    color: #FD0715;
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+}
+
+h3 {
+    color: #FD0715;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#introduction {
+    background-color: #AED0F3;
+    border: double;
+    border-color: #868686;
+    border-width: 5px;
+    text-align: center;
+}
+
+b {
+    color: #FD0715;
+    text-align: center;
+    display: block;
+}
+
+p {
+    margin-top: 2px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+td img {
+    height: 200px;
+    border: solid;
+    border-color: #00A0FF;
+    border-width: 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table .images tbody{
+    text-align: center;
+}
+
+#img-quiz {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid;
+    border-color: #0FA0FB;
+    border-width: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    display: block;
+}
+
+#td-quiz {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form {
+    display: inline;
+}
+
+input {
+    display: inline;
+}
+
+.bonnereponse {
+    max-width: 300px;
+    border: solid;
+    border-radius: 5px;
+    background-color: #71bd81;
+    padding: 10px;
+}
+
+.explication {
+    max-width: 300px;
+    border: solid;
+    border-radius: 5px;
+    background-color: #4999ce;
+    padding: 10px;
+}
+
+footer {
+    height: 20px;
+    background-color: #FF0000;
+    color: white;
+    text-align: right;
+    padding: 20px;
+}

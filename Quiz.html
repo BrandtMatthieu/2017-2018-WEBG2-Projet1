@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Quiz - La faune marine méditerranéenne</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <meta charset="UTF-8">
+    <script src="./assets/js/quizz.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>La faune marine méditerranéenne</h1>
+        <div>
+            <a href="./Index.html">
+                <button>Acceuil</button>
+            </a>
+            <a href="./Spongiaires.html">
+                <button>Spongiaires</button>
+            </a>
+            <a href="./Cnidaires.html">
+                <button>Cnidaires</button>
+            </a>
+            <a href="./Cténaires.html">
+                <button>Cténaires</button>
+            </a>
+            <a href="./Echinodermes.html">
+                <button>Echinodermes</button>
+            </a>
+            <a href="./Bryozoaires.html">
+                <button>Bryozoaires</button>
+            </a>
+            <a href="./Vers marins.html">
+                <button>Vers marins</button>
+            </a>
+            <a href="./Crustacés.html">
+                <button>Crustacés</button>
+            </a>
+            <a href="./Mollusques.html">
+                <button>Mollusques</button>
+            </a>
+            <a href="./Tuniciers.html">
+                <button>Tuniciers</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2>Quizzzzzzzzzzz</h2>
+        <p id="introduction">Répondez à toutes les questions avant d'envoyer vos réponses. Pour une explication, cliquez sur "Explications".</p>
+        <ol>
+            <li>
+                <h4>Dans les éponges, l’eau rentre par les oscules ?   <form>Vrai <input type="radio" name="eponge" value="Vrai">   Faux <input type="radio" name="eponge" value="Faux"></form></h4>
+                <h4>La bonne réponse :<h5 id="q0-br"></h5></h4>
+                <h4>Explication :<h5 id="q0-ex"></h5></h4>
+            </li>
+            <li>
+                <h4>Les coraux, anémones de mer et méduses sont des :
+                    <select>
+                        <option value="0">Bryozoaires</option>
+                        <option value="1">Cnidaires</option>
+                        <option value="3">Cténaires</option>
+                    </select>
+                </h4>
+                <h4>La bonne réponse :<h5 id="q1-br"></h5></h4>
+                <h4>Explication :<h5 id="q1-ex"></h5></h4>
+            </li>
+            <li>
+                <h4>Les Cténiaires sont planctoniques?   <form>Vrai <input type="radio" name="eponge" value="Vrai">   Faux <input type="radio" name="eponge" value="Faux"></form></h4>
+                <h4>La bonne réponse :<h5 id="q2-br"></h5></h4>
+                <h4>Explication :<h5 id="q2-ex"></h5></h4>
+            </li>
+            <li>
+                <h4>Les oursins sont des Echinodermes   <form>Vrai <input type="radio" name="eponge" value="true">   Faux <input type="radio" name="eponge" value="false"></form></h4>
+                <h4>La bonne réponse :<h5 id="q3-br"></h5></h4>
+                <h4>Explication :<h5 id="q3-ex"></h5></h4>
+            </li>
+            <li>
+                <h4>On trouve des Cténaires jusqu'à   <form><input type="number" step='500' value="0"></form></h4>
+                <h4>La bonne réponse :<h5 id="q4-br"</h5></h4>
+                <h4>Explication :<h5 id="q4-ex"></h5></h4>
+            </li>
+        </ol>
+
+        <button onclick="corriger()">Quizzzzer</button>
+        <button onclick="recommencer()">On recommence</button>
+    </main>
+    <br>
+    <footer id="footer-bis">
+        Ne vaudrait-il pas mieux monter le blanc en neige avec style que mettre le jaune en div avec classe ?
+    </footer>
+</body>
+
+</html>
